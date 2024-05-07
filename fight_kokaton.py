@@ -134,6 +134,12 @@ class Beam:
             screen.blit(self.img, self.rct)
 
 
+class Explosion:
+    def __init__(self,):
+        self.rct.center = pg
+        life = 20
+
+
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
