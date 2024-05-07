@@ -130,8 +130,6 @@ def main():
         for event in pg.event.get():
             if event.type == pg.QUIT:
                 return
-            if event.type == pg.KEYDOWN and event.key == pg.K_SPACE:
-                beam = Beam(bird)
 
         screen.blit(bg_img, [0, 0])
         
