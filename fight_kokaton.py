@@ -121,7 +121,7 @@ class Beam:
         self.rct: pg.Rect = self.img.get_rect() #ビーム画像Rect
         self.rct.left = bird.rct.right #ビームの左座標にこうかとんの右座標を設定
         self.rct.centery = bird.rct.centery
-        self.vx, self.vy = +5, 0 #横方向速度,縦方向速度
+        self.vx, self.vy = +5, 0 #横方向速度,縦方向
     
     def update(self, screen: pg.Surface):
         """
